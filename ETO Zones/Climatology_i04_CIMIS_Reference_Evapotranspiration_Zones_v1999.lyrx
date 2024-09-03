@@ -1,0 +1,3267 @@
+{
+  "type" : "CIMLayerDocument",
+  "version" : "3.1.0",
+  "build" : 41833,
+  "layers" : [
+    "CIMPATH=map/i04_cimis_reference_evapotranspiration_zones_v1999.json"
+  ],
+  "layerDefinitions" : [
+    {
+      "type" : "CIMFeatureLayer",
+      "name" : "i04_CIMIS_Reference_Evapotranspiration_Zones_v1999",
+      "uRI" : "CIMPATH=map/i04_cimis_reference_evapotranspiration_zones_v1999.json",
+      "sourceURI" : "82b0479638f94cf6bf2d26ffb8212d3c",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant"
+      },
+      "useSourceMetadata" : true,
+      "attribution" : "CIMIS, DWR",
+      "description" : "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>The ETo Zones Map allows users to view the grass-reference evapotranspiration (ETo) Zones for the State of California. The map was developed by DWR and UC Davis in 1999 and divides the State into 18 zones based on long-term monthly average ETo. The ETo values were calculated using data from various data sources, including CIMIS weather stations that had at least five years of archived data. This dataset is the version from 1999.</SPAN></P></DIV></DIV></DIV>",
+      "layerElevation" : {
+        "type" : "CIMLayerElevationSurface",
+        "elevationSurfaceLayerURI" : "CIMPATH=Map/e154b92af2204a88a4d75a9a38423e13.json"
+      },
+      "expanded" : true,
+      "layerType" : "Operational",
+      "showLegends" : true,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "popupInfo" : {
+        "type" : "CIMPopupInfo",
+        "title" : "i04_CIMIS_Reference_Evapotranspiration_Zones_v1999: {MapKey}",
+        "mediaInfos" : [
+          {
+            "type" : "CIMTableMediaInfo",
+            "refreshRateUnit" : "esriTimeUnitsSeconds",
+            "rowSpan" : 1,
+            "columnSpan" : 1,
+            "fields" : [
+              "MapKey",
+              "Poly_ID",
+              "RecNo",
+              "Color",
+              "Zone",
+              "January_Monthly_Avg_ETo",
+              "February_Monthly_Avg_ETo",
+              "March_Monthly_Avg_ETo",
+              "April_Monthly_Avg_ETo",
+              "May_Monthly_Avg_ETo",
+              "June_Monthly_Avg_ETo",
+              "July_Monthly_Avg_ETo",
+              "August_Monthly_Avg_ETo",
+              "September_Monthly_Avg_ETo",
+              "October_Monthly_Avg_ETo",
+              "November_Monthly_Avg_ETo",
+              "December_Monthly_Avg_ETo",
+              "Definition",
+              "Last_Modified_Date",
+              "Modifed_By",
+              "Date_Data_Refers_To",
+              "Source",
+              "Comments"
+            ]
+          },
+          {
+            "type" : "CIMAttachmentsMediaInfo",
+            "row" : 1,
+            "refreshRateUnit" : "esriTimeUnitsSeconds",
+            "rowSpan" : 1,
+            "columnSpan" : 1,
+            "displayType" : "List"
+          }
+        ],
+        "gridLayout" : {
+          "type" : "CIMPopupLayout",
+          "columnWidths" : [
+            100
+          ],
+          "borderWidth" : 0,
+          "borderColor" : {
+            "type" : "CIMRGBColor",
+            "values" : [
+              0,
+              0,
+              0,
+              100
+            ]
+          }
+        },
+        "fieldDescriptions" : [
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "April_Monthly_Average_Reference_Evapotranspiration",
+            "fieldName" : "April_Monthly_Avg_ETo",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignLeft",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 2,
+              "useSeparator" : true
+            }
+          },
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "August_Monthly_Average_Reference_Evapotranspiration",
+            "fieldName" : "August_Monthly_Avg_ETo",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignLeft",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 2,
+              "useSeparator" : true
+            }
+          },
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "Color",
+            "fieldName" : "Color",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignLeft",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 0,
+              "useSeparator" : true
+            }
+          },
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "Comments",
+            "fieldName" : "Comments"
+          },
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "Date_Data_Refers_To",
+            "fieldName" : "Date_Data_Refers_To",
+            "numberFormat" : {
+              "type" : "CIMDateFormat",
+              "format" : "M/d/yyyy, h:mm tt"
+            }
+          },
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "December_Monthly_Average_Reference_Evapotranspiration",
+            "fieldName" : "December_Monthly_Avg_ETo",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignLeft",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 2,
+              "useSeparator" : true
+            }
+          },
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "Definition",
+            "fieldName" : "Definition"
+          },
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "February_Monthly_Average_Reference_Evapotranspiration",
+            "fieldName" : "February_Monthly_Avg_ETo",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignLeft",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 2,
+              "useSeparator" : true
+            }
+          },
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "January_Monthly_Average_Reference_Evapotranspiration",
+            "fieldName" : "January_Monthly_Avg_ETo",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignLeft",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 2,
+              "useSeparator" : true
+            }
+          },
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "July_Monthly_Average_Reference_Evapotranspiration",
+            "fieldName" : "July_Monthly_Avg_ETo",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignLeft",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 2,
+              "useSeparator" : true
+            }
+          },
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "June_Monthly_Average_Reference_Evapotranspiration",
+            "fieldName" : "June_Monthly_Avg_ETo",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignLeft",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 2,
+              "useSeparator" : true
+            }
+          },
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "Last_Modified_Date",
+            "fieldName" : "Last_Modified_Date",
+            "numberFormat" : {
+              "type" : "CIMDateFormat",
+              "format" : "M/d/yyyy, h:mm tt"
+            }
+          },
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "MapKey",
+            "fieldName" : "MapKey"
+          },
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "March_Monthly_Average_Reference_Evapotranspiration",
+            "fieldName" : "March_Monthly_Avg_ETo",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignLeft",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 2,
+              "useSeparator" : true
+            }
+          },
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "May_Monthly_Average_Reference_Evapotranspiration",
+            "fieldName" : "May_Monthly_Avg_ETo",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignLeft",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 2,
+              "useSeparator" : true
+            }
+          },
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "Modifed_By",
+            "fieldName" : "Modifed_By"
+          },
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "Novemer_Monthly_Average_Reference_Evapotranspiration",
+            "fieldName" : "November_Monthly_Avg_ETo",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignLeft",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 2,
+              "useSeparator" : true
+            }
+          },
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "OBJECTID",
+            "fieldName" : "OBJECTID"
+          },
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "October_Monthly_Average_Reference_Evapotranspiration",
+            "fieldName" : "October_Monthly_Avg_ETo",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignLeft",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 2,
+              "useSeparator" : true
+            }
+          },
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "Poly_ID",
+            "fieldName" : "Poly_ID",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignLeft",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 0,
+              "useSeparator" : true
+            }
+          },
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "RecNo",
+            "fieldName" : "RecNo",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignLeft",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 0,
+              "useSeparator" : true
+            }
+          },
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "September_Monthly_Average_Reference_Evapotranspiration",
+            "fieldName" : "September_Monthly_Avg_ETo",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignLeft",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 2,
+              "useSeparator" : true
+            }
+          },
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "Shape.STArea()",
+            "fieldName" : "Shape__Area",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignLeft",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 2,
+              "useSeparator" : true
+            }
+          },
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "Shape.STLength()",
+            "fieldName" : "Shape__Length",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignLeft",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 2,
+              "useSeparator" : true
+            }
+          },
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "Source",
+            "fieldName" : "Source"
+          },
+          {
+            "type" : "CIMPopupFieldDescription",
+            "alias" : "Zone",
+            "fieldName" : "Zone",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignLeft",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 0,
+              "useSeparator" : true
+            }
+          }
+        ]
+      },
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "featureElevationExpression" : "0",
+      "featureTable" : {
+        "type" : "CIMFeatureTable",
+        "displayField" : "MapKey",
+        "editable" : true,
+        "fieldDescriptions" : [
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "OBJECTID",
+            "fieldName" : "OBJECTID",
+            "readOnly" : true,
+            "visible" : false,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "MapKey",
+            "fieldName" : "MapKey",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "Poly_ID",
+            "fieldName" : "Poly_ID",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "RecNo",
+            "fieldName" : "RecNo",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "Color",
+            "fieldName" : "Color",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "Zone",
+            "fieldName" : "Zone",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "January_Monthly_Average_Reference_Evapotranspiration",
+            "fieldName" : "January_Monthly_Avg_ETo",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "February_Monthly_Average_Reference_Evapotranspiration",
+            "fieldName" : "February_Monthly_Avg_ETo",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "March_Monthly_Average_Reference_Evapotranspiration",
+            "fieldName" : "March_Monthly_Avg_ETo",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "April_Monthly_Average_Reference_Evapotranspiration",
+            "fieldName" : "April_Monthly_Avg_ETo",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "May_Monthly_Average_Reference_Evapotranspiration",
+            "fieldName" : "May_Monthly_Avg_ETo",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "June_Monthly_Average_Reference_Evapotranspiration",
+            "fieldName" : "June_Monthly_Avg_ETo",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "July_Monthly_Average_Reference_Evapotranspiration",
+            "fieldName" : "July_Monthly_Avg_ETo",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "August_Monthly_Average_Reference_Evapotranspiration",
+            "fieldName" : "August_Monthly_Avg_ETo",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "September_Monthly_Average_Reference_Evapotranspiration",
+            "fieldName" : "September_Monthly_Avg_ETo",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "October_Monthly_Average_Reference_Evapotranspiration",
+            "fieldName" : "October_Monthly_Avg_ETo",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "Novemer_Monthly_Average_Reference_Evapotranspiration",
+            "fieldName" : "November_Monthly_Avg_ETo",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "December_Monthly_Average_Reference_Evapotranspiration",
+            "fieldName" : "December_Monthly_Avg_ETo",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "Definition",
+            "fieldName" : "Definition",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "Last_Modified_Date",
+            "fieldName" : "Last_Modified_Date",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "Modifed_By",
+            "fieldName" : "Modifed_By",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "Date_Data_Refers_To",
+            "fieldName" : "Date_Data_Refers_To",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "Source",
+            "fieldName" : "Source",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "Comments",
+            "fieldName" : "Comments",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "Shape.STArea()",
+            "fieldName" : "Shape__Area",
+            "readOnly" : true,
+            "visible" : false,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "Shape.STLength()",
+            "fieldName" : "Shape__Length",
+            "readOnly" : true,
+            "visible" : false,
+            "searchMode" : "Exact"
+          }
+        ],
+        "dataConnection" : {
+          "type" : "CIMStandardDataConnection",
+          "workspaceConnectionString" : "URL=https://gis.water.ca.gov/arcgis/rest/services/Climatology/i04_CIMIS_Reference_Evapotranspiration_Zones_v1999/FeatureServer",
+          "workspaceFactory" : "FeatureService",
+          "dataset" : "0",
+          "datasetType" : "esriDTFeatureClass"
+        },
+        "studyAreaSpatialRel" : "esriSpatialRelUndefined",
+        "searchOrder" : "esriSearchOrderSpatial"
+      },
+      "featureTemplates" : [
+        {
+          "type" : "CIMRowTemplate",
+          "name" : "Coastal Plains Heavy Fog Belt",
+          "defaultToolGUID" : "{8F79967B-66A0-4a1c-B884-F44BC7E26921}",
+          "defaultValues" : {
+            "type" : "PropertySet",
+            "propertySetItems" : [
+              "Color",
+              null,
+              "Comments",
+              null,
+              "MapKey",
+              null,
+              "Poly_ID",
+              null,
+              "RecNo",
+              null,
+              "Zone",
+              1,
+              "January_Monthly_Avg_ETo",
+              null,
+              "February_Monthly_Avg_ETo",
+              null,
+              "March_Monthly_Avg_ETo",
+              null,
+              "April_Monthly_Avg_ETo",
+              null,
+              "May_Monthly_Avg_ETo",
+              null,
+              "June_Monthly_Avg_ETo",
+              null,
+              "July_Monthly_Avg_ETo",
+              null,
+              "August_Monthly_Avg_ETo",
+              null,
+              "September_Monthly_Avg_ETo",
+              null,
+              "October_Monthly_Avg_ETo",
+              null,
+              "November_Monthly_Avg_ETo",
+              null,
+              "December_Monthly_Avg_ETo",
+              null,
+              "Definition",
+              null,
+              "Last_Modified_Date",
+              null,
+              "Modifed_By",
+              null,
+              "Date_Data_Refers_To",
+              null,
+              "Source",
+              null
+            ]
+          }
+        },
+        {
+          "type" : "CIMRowTemplate",
+          "name" : "Coastal Mixed Fog Area",
+          "defaultToolGUID" : "{8F79967B-66A0-4a1c-B884-F44BC7E26921}",
+          "defaultValues" : {
+            "type" : "PropertySet",
+            "propertySetItems" : [
+              "Color",
+              null,
+              "Comments",
+              null,
+              "MapKey",
+              null,
+              "Poly_ID",
+              null,
+              "RecNo",
+              null,
+              "Zone",
+              2,
+              "January_Monthly_Avg_ETo",
+              null,
+              "February_Monthly_Avg_ETo",
+              null,
+              "March_Monthly_Avg_ETo",
+              null,
+              "April_Monthly_Avg_ETo",
+              null,
+              "May_Monthly_Avg_ETo",
+              null,
+              "June_Monthly_Avg_ETo",
+              null,
+              "July_Monthly_Avg_ETo",
+              null,
+              "August_Monthly_Avg_ETo",
+              null,
+              "September_Monthly_Avg_ETo",
+              null,
+              "October_Monthly_Avg_ETo",
+              null,
+              "November_Monthly_Avg_ETo",
+              null,
+              "December_Monthly_Avg_ETo",
+              null,
+              "Definition",
+              null,
+              "Last_Modified_Date",
+              null,
+              "Modifed_By",
+              null,
+              "Date_Data_Refers_To",
+              null,
+              "Source",
+              null
+            ]
+          }
+        },
+        {
+          "type" : "CIMRowTemplate",
+          "name" : "Coastal Valleys & Plains &North Coast Mountains",
+          "defaultToolGUID" : "{8F79967B-66A0-4a1c-B884-F44BC7E26921}",
+          "defaultValues" : {
+            "type" : "PropertySet",
+            "propertySetItems" : [
+              "Color",
+              null,
+              "Comments",
+              null,
+              "MapKey",
+              null,
+              "Poly_ID",
+              null,
+              "RecNo",
+              null,
+              "Zone",
+              3,
+              "January_Monthly_Avg_ETo",
+              null,
+              "February_Monthly_Avg_ETo",
+              null,
+              "March_Monthly_Avg_ETo",
+              null,
+              "April_Monthly_Avg_ETo",
+              null,
+              "May_Monthly_Avg_ETo",
+              null,
+              "June_Monthly_Avg_ETo",
+              null,
+              "July_Monthly_Avg_ETo",
+              null,
+              "August_Monthly_Avg_ETo",
+              null,
+              "September_Monthly_Avg_ETo",
+              null,
+              "October_Monthly_Avg_ETo",
+              null,
+              "November_Monthly_Avg_ETo",
+              null,
+              "December_Monthly_Avg_ETo",
+              null,
+              "Definition",
+              null,
+              "Last_Modified_Date",
+              null,
+              "Modifed_By",
+              null,
+              "Date_Data_Refers_To",
+              null,
+              "Source",
+              null
+            ]
+          }
+        },
+        {
+          "type" : "CIMRowTemplate",
+          "name" : "South Coast Inland Plains & Mountains North of San Francisco",
+          "defaultToolGUID" : "{8F79967B-66A0-4a1c-B884-F44BC7E26921}",
+          "defaultValues" : {
+            "type" : "PropertySet",
+            "propertySetItems" : [
+              "Color",
+              null,
+              "Comments",
+              null,
+              "MapKey",
+              null,
+              "Poly_ID",
+              null,
+              "RecNo",
+              null,
+              "Zone",
+              4,
+              "January_Monthly_Avg_ETo",
+              null,
+              "February_Monthly_Avg_ETo",
+              null,
+              "March_Monthly_Avg_ETo",
+              null,
+              "April_Monthly_Avg_ETo",
+              null,
+              "May_Monthly_Avg_ETo",
+              null,
+              "June_Monthly_Avg_ETo",
+              null,
+              "July_Monthly_Avg_ETo",
+              null,
+              "August_Monthly_Avg_ETo",
+              null,
+              "September_Monthly_Avg_ETo",
+              null,
+              "October_Monthly_Avg_ETo",
+              null,
+              "November_Monthly_Avg_ETo",
+              null,
+              "December_Monthly_Avg_ETo",
+              null,
+              "Definition",
+              null,
+              "Last_Modified_Date",
+              null,
+              "Modifed_By",
+              null,
+              "Date_Data_Refers_To",
+              null,
+              "Source",
+              null
+            ]
+          }
+        },
+        {
+          "type" : "CIMRowTemplate",
+          "name" : "Northern Inland Valleys",
+          "defaultToolGUID" : "{8F79967B-66A0-4a1c-B884-F44BC7E26921}",
+          "defaultValues" : {
+            "type" : "PropertySet",
+            "propertySetItems" : [
+              "Color",
+              null,
+              "Comments",
+              null,
+              "MapKey",
+              null,
+              "Poly_ID",
+              null,
+              "RecNo",
+              null,
+              "Zone",
+              5,
+              "January_Monthly_Avg_ETo",
+              null,
+              "February_Monthly_Avg_ETo",
+              null,
+              "March_Monthly_Avg_ETo",
+              null,
+              "April_Monthly_Avg_ETo",
+              null,
+              "May_Monthly_Avg_ETo",
+              null,
+              "June_Monthly_Avg_ETo",
+              null,
+              "July_Monthly_Avg_ETo",
+              null,
+              "August_Monthly_Avg_ETo",
+              null,
+              "September_Monthly_Avg_ETo",
+              null,
+              "October_Monthly_Avg_ETo",
+              null,
+              "November_Monthly_Avg_ETo",
+              null,
+              "December_Monthly_Avg_ETo",
+              null,
+              "Definition",
+              null,
+              "Last_Modified_Date",
+              null,
+              "Modifed_By",
+              null,
+              "Date_Data_Refers_To",
+              null,
+              "Source",
+              null
+            ]
+          }
+        },
+        {
+          "type" : "CIMRowTemplate",
+          "name" : "Upland Central Coast & Los Angeles Basin",
+          "defaultToolGUID" : "{8F79967B-66A0-4a1c-B884-F44BC7E26921}",
+          "defaultValues" : {
+            "type" : "PropertySet",
+            "propertySetItems" : [
+              "Color",
+              null,
+              "Comments",
+              null,
+              "MapKey",
+              null,
+              "Poly_ID",
+              null,
+              "RecNo",
+              null,
+              "Zone",
+              6,
+              "January_Monthly_Avg_ETo",
+              null,
+              "February_Monthly_Avg_ETo",
+              null,
+              "March_Monthly_Avg_ETo",
+              null,
+              "April_Monthly_Avg_ETo",
+              null,
+              "May_Monthly_Avg_ETo",
+              null,
+              "June_Monthly_Avg_ETo",
+              null,
+              "July_Monthly_Avg_ETo",
+              null,
+              "August_Monthly_Avg_ETo",
+              null,
+              "September_Monthly_Avg_ETo",
+              null,
+              "October_Monthly_Avg_ETo",
+              null,
+              "November_Monthly_Avg_ETo",
+              null,
+              "December_Monthly_Avg_ETo",
+              null,
+              "Definition",
+              null,
+              "Last_Modified_Date",
+              null,
+              "Modifed_By",
+              null,
+              "Date_Data_Refers_To",
+              null,
+              "Source",
+              null
+            ]
+          }
+        },
+        {
+          "type" : "CIMRowTemplate",
+          "name" : "Northeastern Plains",
+          "defaultToolGUID" : "{8F79967B-66A0-4a1c-B884-F44BC7E26921}",
+          "defaultValues" : {
+            "type" : "PropertySet",
+            "propertySetItems" : [
+              "Color",
+              null,
+              "Comments",
+              null,
+              "MapKey",
+              null,
+              "Poly_ID",
+              null,
+              "RecNo",
+              null,
+              "Zone",
+              7,
+              "January_Monthly_Avg_ETo",
+              null,
+              "February_Monthly_Avg_ETo",
+              null,
+              "March_Monthly_Avg_ETo",
+              null,
+              "April_Monthly_Avg_ETo",
+              null,
+              "May_Monthly_Avg_ETo",
+              null,
+              "June_Monthly_Avg_ETo",
+              null,
+              "July_Monthly_Avg_ETo",
+              null,
+              "August_Monthly_Avg_ETo",
+              null,
+              "September_Monthly_Avg_ETo",
+              null,
+              "October_Monthly_Avg_ETo",
+              null,
+              "November_Monthly_Avg_ETo",
+              null,
+              "December_Monthly_Avg_ETo",
+              null,
+              "Definition",
+              null,
+              "Last_Modified_Date",
+              null,
+              "Modifed_By",
+              null,
+              "Date_Data_Refers_To",
+              null,
+              "Source",
+              null
+            ]
+          }
+        },
+        {
+          "type" : "CIMRowTemplate",
+          "name" : "Inland San Francisco Bay Area",
+          "defaultToolGUID" : "{8F79967B-66A0-4a1c-B884-F44BC7E26921}",
+          "defaultValues" : {
+            "type" : "PropertySet",
+            "propertySetItems" : [
+              "Color",
+              null,
+              "Comments",
+              null,
+              "MapKey",
+              null,
+              "Poly_ID",
+              null,
+              "RecNo",
+              null,
+              "Zone",
+              8,
+              "January_Monthly_Avg_ETo",
+              null,
+              "February_Monthly_Avg_ETo",
+              null,
+              "March_Monthly_Avg_ETo",
+              null,
+              "April_Monthly_Avg_ETo",
+              null,
+              "May_Monthly_Avg_ETo",
+              null,
+              "June_Monthly_Avg_ETo",
+              null,
+              "July_Monthly_Avg_ETo",
+              null,
+              "August_Monthly_Avg_ETo",
+              null,
+              "September_Monthly_Avg_ETo",
+              null,
+              "October_Monthly_Avg_ETo",
+              null,
+              "November_Monthly_Avg_ETo",
+              null,
+              "December_Monthly_Avg_ETo",
+              null,
+              "Definition",
+              null,
+              "Last_Modified_Date",
+              null,
+              "Modifed_By",
+              null,
+              "Date_Data_Refers_To",
+              null,
+              "Source",
+              null
+            ]
+          }
+        },
+        {
+          "type" : "CIMRowTemplate",
+          "name" : "South Coast Marine to Desert Transition",
+          "defaultToolGUID" : "{8F79967B-66A0-4a1c-B884-F44BC7E26921}",
+          "defaultValues" : {
+            "type" : "PropertySet",
+            "propertySetItems" : [
+              "Color",
+              null,
+              "Comments",
+              null,
+              "MapKey",
+              null,
+              "Poly_ID",
+              null,
+              "RecNo",
+              null,
+              "Zone",
+              9,
+              "January_Monthly_Avg_ETo",
+              null,
+              "February_Monthly_Avg_ETo",
+              null,
+              "March_Monthly_Avg_ETo",
+              null,
+              "April_Monthly_Avg_ETo",
+              null,
+              "May_Monthly_Avg_ETo",
+              null,
+              "June_Monthly_Avg_ETo",
+              null,
+              "July_Monthly_Avg_ETo",
+              null,
+              "August_Monthly_Avg_ETo",
+              null,
+              "September_Monthly_Avg_ETo",
+              null,
+              "October_Monthly_Avg_ETo",
+              null,
+              "November_Monthly_Avg_ETo",
+              null,
+              "December_Monthly_Avg_ETo",
+              null,
+              "Definition",
+              null,
+              "Last_Modified_Date",
+              null,
+              "Modifed_By",
+              null,
+              "Date_Data_Refers_To",
+              null,
+              "Source",
+              null
+            ]
+          }
+        },
+        {
+          "type" : "CIMRowTemplate",
+          "name" : "North Central Plateau & Central Coast",
+          "defaultToolGUID" : "{8F79967B-66A0-4a1c-B884-F44BC7E26921}",
+          "defaultValues" : {
+            "type" : "PropertySet",
+            "propertySetItems" : [
+              "Color",
+              null,
+              "Comments",
+              null,
+              "MapKey",
+              null,
+              "Poly_ID",
+              null,
+              "RecNo",
+              null,
+              "Zone",
+              10,
+              "January_Monthly_Avg_ETo",
+              null,
+              "February_Monthly_Avg_ETo",
+              null,
+              "March_Monthly_Avg_ETo",
+              null,
+              "April_Monthly_Avg_ETo",
+              null,
+              "May_Monthly_Avg_ETo",
+              null,
+              "June_Monthly_Avg_ETo",
+              null,
+              "July_Monthly_Avg_ETo",
+              null,
+              "August_Monthly_Avg_ETo",
+              null,
+              "September_Monthly_Avg_ETo",
+              null,
+              "October_Monthly_Avg_ETo",
+              null,
+              "November_Monthly_Avg_ETo",
+              null,
+              "December_Monthly_Avg_ETo",
+              null,
+              "Definition",
+              null,
+              "Last_Modified_Date",
+              null,
+              "Modifed_By",
+              null,
+              "Date_Data_Refers_To",
+              null,
+              "Source",
+              null
+            ]
+          }
+        },
+        {
+          "type" : "CIMRowTemplate",
+          "name" : "Central Sierra Nevada",
+          "defaultToolGUID" : "{8F79967B-66A0-4a1c-B884-F44BC7E26921}",
+          "defaultValues" : {
+            "type" : "PropertySet",
+            "propertySetItems" : [
+              "Color",
+              null,
+              "Comments",
+              null,
+              "MapKey",
+              null,
+              "Poly_ID",
+              null,
+              "RecNo",
+              null,
+              "Zone",
+              11,
+              "January_Monthly_Avg_ETo",
+              null,
+              "February_Monthly_Avg_ETo",
+              null,
+              "March_Monthly_Avg_ETo",
+              null,
+              "April_Monthly_Avg_ETo",
+              null,
+              "May_Monthly_Avg_ETo",
+              null,
+              "June_Monthly_Avg_ETo",
+              null,
+              "July_Monthly_Avg_ETo",
+              null,
+              "August_Monthly_Avg_ETo",
+              null,
+              "September_Monthly_Avg_ETo",
+              null,
+              "October_Monthly_Avg_ETo",
+              null,
+              "November_Monthly_Avg_ETo",
+              null,
+              "December_Monthly_Avg_ETo",
+              null,
+              "Definition",
+              null,
+              "Last_Modified_Date",
+              null,
+              "Modifed_By",
+              null,
+              "Date_Data_Refers_To",
+              null,
+              "Source",
+              null
+            ]
+          }
+        },
+        {
+          "type" : "CIMRowTemplate",
+          "name" : "East Side Sacramento-San Joaquin Valley",
+          "defaultToolGUID" : "{8F79967B-66A0-4a1c-B884-F44BC7E26921}",
+          "defaultValues" : {
+            "type" : "PropertySet",
+            "propertySetItems" : [
+              "Color",
+              null,
+              "Comments",
+              null,
+              "MapKey",
+              null,
+              "Poly_ID",
+              null,
+              "RecNo",
+              null,
+              "Zone",
+              12,
+              "January_Monthly_Avg_ETo",
+              null,
+              "February_Monthly_Avg_ETo",
+              null,
+              "March_Monthly_Avg_ETo",
+              null,
+              "April_Monthly_Avg_ETo",
+              null,
+              "May_Monthly_Avg_ETo",
+              null,
+              "June_Monthly_Avg_ETo",
+              null,
+              "July_Monthly_Avg_ETo",
+              null,
+              "August_Monthly_Avg_ETo",
+              null,
+              "September_Monthly_Avg_ETo",
+              null,
+              "October_Monthly_Avg_ETo",
+              null,
+              "November_Monthly_Avg_ETo",
+              null,
+              "December_Monthly_Avg_ETo",
+              null,
+              "Definition",
+              null,
+              "Last_Modified_Date",
+              null,
+              "Modifed_By",
+              null,
+              "Date_Data_Refers_To",
+              null,
+              "Source",
+              null
+            ]
+          }
+        },
+        {
+          "type" : "CIMRowTemplate",
+          "name" : "Northern Sierra Nevada",
+          "defaultToolGUID" : "{8F79967B-66A0-4a1c-B884-F44BC7E26921}",
+          "defaultValues" : {
+            "type" : "PropertySet",
+            "propertySetItems" : [
+              "Color",
+              null,
+              "Comments",
+              null,
+              "MapKey",
+              null,
+              "Poly_ID",
+              null,
+              "RecNo",
+              null,
+              "Zone",
+              13,
+              "January_Monthly_Avg_ETo",
+              null,
+              "February_Monthly_Avg_ETo",
+              null,
+              "March_Monthly_Avg_ETo",
+              null,
+              "April_Monthly_Avg_ETo",
+              null,
+              "May_Monthly_Avg_ETo",
+              null,
+              "June_Monthly_Avg_ETo",
+              null,
+              "July_Monthly_Avg_ETo",
+              null,
+              "August_Monthly_Avg_ETo",
+              null,
+              "September_Monthly_Avg_ETo",
+              null,
+              "October_Monthly_Avg_ETo",
+              null,
+              "November_Monthly_Avg_ETo",
+              null,
+              "December_Monthly_Avg_ETo",
+              null,
+              "Definition",
+              null,
+              "Last_Modified_Date",
+              null,
+              "Modifed_By",
+              null,
+              "Date_Data_Refers_To",
+              null,
+              "Source",
+              null
+            ]
+          }
+        },
+        {
+          "type" : "CIMRowTemplate",
+          "name" : "Mid-Central Velly, Southern Sierra Nevada, Tehachapi & High Desert Mountains",
+          "defaultToolGUID" : "{8F79967B-66A0-4a1c-B884-F44BC7E26921}",
+          "defaultValues" : {
+            "type" : "PropertySet",
+            "propertySetItems" : [
+              "Color",
+              null,
+              "Comments",
+              null,
+              "MapKey",
+              null,
+              "Poly_ID",
+              null,
+              "RecNo",
+              null,
+              "Zone",
+              14,
+              "January_Monthly_Avg_ETo",
+              null,
+              "February_Monthly_Avg_ETo",
+              null,
+              "March_Monthly_Avg_ETo",
+              null,
+              "April_Monthly_Avg_ETo",
+              null,
+              "May_Monthly_Avg_ETo",
+              null,
+              "June_Monthly_Avg_ETo",
+              null,
+              "July_Monthly_Avg_ETo",
+              null,
+              "August_Monthly_Avg_ETo",
+              null,
+              "September_Monthly_Avg_ETo",
+              null,
+              "October_Monthly_Avg_ETo",
+              null,
+              "November_Monthly_Avg_ETo",
+              null,
+              "December_Monthly_Avg_ETo",
+              null,
+              "Definition",
+              null,
+              "Last_Modified_Date",
+              null,
+              "Modifed_By",
+              null,
+              "Date_Data_Refers_To",
+              null,
+              "Source",
+              null
+            ]
+          }
+        },
+        {
+          "type" : "CIMRowTemplate",
+          "name" : "Northern & Southern San Joaquin Valley",
+          "defaultToolGUID" : "{8F79967B-66A0-4a1c-B884-F44BC7E26921}",
+          "defaultValues" : {
+            "type" : "PropertySet",
+            "propertySetItems" : [
+              "Color",
+              null,
+              "Comments",
+              null,
+              "MapKey",
+              null,
+              "Poly_ID",
+              null,
+              "RecNo",
+              null,
+              "Zone",
+              15,
+              "January_Monthly_Avg_ETo",
+              null,
+              "February_Monthly_Avg_ETo",
+              null,
+              "March_Monthly_Avg_ETo",
+              null,
+              "April_Monthly_Avg_ETo",
+              null,
+              "May_Monthly_Avg_ETo",
+              null,
+              "June_Monthly_Avg_ETo",
+              null,
+              "July_Monthly_Avg_ETo",
+              null,
+              "August_Monthly_Avg_ETo",
+              null,
+              "September_Monthly_Avg_ETo",
+              null,
+              "October_Monthly_Avg_ETo",
+              null,
+              "November_Monthly_Avg_ETo",
+              null,
+              "December_Monthly_Avg_ETo",
+              null,
+              "Definition",
+              null,
+              "Last_Modified_Date",
+              null,
+              "Modifed_By",
+              null,
+              "Date_Data_Refers_To",
+              null,
+              "Source",
+              null
+            ]
+          }
+        },
+        {
+          "type" : "CIMRowTemplate",
+          "name" : "Westside San Joaquin Valley & Mountains East & West of Imperial Valley",
+          "defaultToolGUID" : "{8F79967B-66A0-4a1c-B884-F44BC7E26921}",
+          "defaultValues" : {
+            "type" : "PropertySet",
+            "propertySetItems" : [
+              "Color",
+              null,
+              "Comments",
+              null,
+              "MapKey",
+              null,
+              "Poly_ID",
+              null,
+              "RecNo",
+              null,
+              "Zone",
+              16,
+              "January_Monthly_Avg_ETo",
+              null,
+              "February_Monthly_Avg_ETo",
+              null,
+              "March_Monthly_Avg_ETo",
+              null,
+              "April_Monthly_Avg_ETo",
+              null,
+              "May_Monthly_Avg_ETo",
+              null,
+              "June_Monthly_Avg_ETo",
+              null,
+              "July_Monthly_Avg_ETo",
+              null,
+              "August_Monthly_Avg_ETo",
+              null,
+              "September_Monthly_Avg_ETo",
+              null,
+              "October_Monthly_Avg_ETo",
+              null,
+              "November_Monthly_Avg_ETo",
+              null,
+              "December_Monthly_Avg_ETo",
+              null,
+              "Definition",
+              null,
+              "Last_Modified_Date",
+              null,
+              "Modifed_By",
+              null,
+              "Date_Data_Refers_To",
+              null,
+              "Source",
+              null
+            ]
+          }
+        },
+        {
+          "type" : "CIMRowTemplate",
+          "name" : "High Desert Valleys",
+          "defaultToolGUID" : "{8F79967B-66A0-4a1c-B884-F44BC7E26921}",
+          "defaultValues" : {
+            "type" : "PropertySet",
+            "propertySetItems" : [
+              "Color",
+              null,
+              "Comments",
+              null,
+              "MapKey",
+              null,
+              "Poly_ID",
+              null,
+              "RecNo",
+              null,
+              "Zone",
+              17,
+              "January_Monthly_Avg_ETo",
+              null,
+              "February_Monthly_Avg_ETo",
+              null,
+              "March_Monthly_Avg_ETo",
+              null,
+              "April_Monthly_Avg_ETo",
+              null,
+              "May_Monthly_Avg_ETo",
+              null,
+              "June_Monthly_Avg_ETo",
+              null,
+              "July_Monthly_Avg_ETo",
+              null,
+              "August_Monthly_Avg_ETo",
+              null,
+              "September_Monthly_Avg_ETo",
+              null,
+              "October_Monthly_Avg_ETo",
+              null,
+              "November_Monthly_Avg_ETo",
+              null,
+              "December_Monthly_Avg_ETo",
+              null,
+              "Definition",
+              null,
+              "Last_Modified_Date",
+              null,
+              "Modifed_By",
+              null,
+              "Date_Data_Refers_To",
+              null,
+              "Source",
+              null
+            ]
+          }
+        },
+        {
+          "type" : "CIMRowTemplate",
+          "name" : "Imperial Valley, Death Valley & Palo Verde",
+          "defaultToolGUID" : "{8F79967B-66A0-4a1c-B884-F44BC7E26921}",
+          "defaultValues" : {
+            "type" : "PropertySet",
+            "propertySetItems" : [
+              "Color",
+              null,
+              "Comments",
+              null,
+              "MapKey",
+              null,
+              "Poly_ID",
+              null,
+              "RecNo",
+              null,
+              "Zone",
+              18,
+              "January_Monthly_Avg_ETo",
+              null,
+              "February_Monthly_Avg_ETo",
+              null,
+              "March_Monthly_Avg_ETo",
+              null,
+              "April_Monthly_Avg_ETo",
+              null,
+              "May_Monthly_Avg_ETo",
+              null,
+              "June_Monthly_Avg_ETo",
+              null,
+              "July_Monthly_Avg_ETo",
+              null,
+              "August_Monthly_Avg_ETo",
+              null,
+              "September_Monthly_Avg_ETo",
+              null,
+              "October_Monthly_Avg_ETo",
+              null,
+              "November_Monthly_Avg_ETo",
+              null,
+              "December_Monthly_Avg_ETo",
+              null,
+              "Definition",
+              null,
+              "Last_Modified_Date",
+              null,
+              "Modifed_By",
+              null,
+              "Date_Data_Refers_To",
+              null,
+              "Source",
+              null
+            ]
+          }
+        }
+      ],
+      "htmlPopupEnabled" : true,
+      "selectable" : true,
+      "featureCacheType" : "Session",
+      "displayFiltersType" : "ByScale",
+      "featureBlendingMode" : "Alpha",
+      "labelClasses" : [
+        {
+          "type" : "CIMLabelClass",
+          "expressionTitle" : "Custom",
+          "expression" : "$feature.MapKey",
+          "expressionEngine" : "Arcade",
+          "featuresToLabel" : "AllVisibleFeatures",
+          "maplexLabelPlacementProperties" : {
+            "type" : "CIMMaplexLabelPlacementProperties",
+            "featureType" : "Polygon",
+            "avoidPolygonHoles" : true,
+            "canOverrunFeature" : true,
+            "canPlaceLabelOutsidePolygon" : true,
+            "canRemoveOverlappingLabel" : true,
+            "canStackLabel" : true,
+            "centerLabelAnchorType" : "Symbol",
+            "connectionType" : "Unambiguous",
+            "constrainOffset" : "NoConstraint",
+            "contourAlignmentType" : "Page",
+            "contourLadderType" : "Straight",
+            "contourMaximumAngle" : 90,
+            "enableConnection" : true,
+            "featureWeight" : 0,
+            "fontHeightReductionLimit" : 4,
+            "fontHeightReductionStep" : 0.5,
+            "fontWidthReductionLimit" : 90,
+            "fontWidthReductionStep" : 5,
+            "graticuleAlignmentType" : "Straight",
+            "keyNumberGroupName" : "Default",
+            "labelBuffer" : 15,
+            "labelLargestPolygon" : true,
+            "labelPriority" : -1,
+            "labelStackingProperties" : {
+              "type" : "CIMMaplexLabelStackingProperties",
+              "stackAlignment" : "ChooseBest",
+              "maximumNumberOfLines" : 3,
+              "minimumNumberOfCharsPerLine" : 3,
+              "maximumNumberOfCharsPerLine" : 24,
+              "separators" : [
+                {
+                  "type" : "CIMMaplexStackingSeparator",
+                  "separator" : " ",
+                  "splitAfter" : true
+                },
+                {
+                  "type" : "CIMMaplexStackingSeparator",
+                  "separator" : ",",
+                  "visible" : true,
+                  "splitAfter" : true
+                }
+              ],
+              "trimStackingSeparators" : true
+            },
+            "lineFeatureType" : "General",
+            "linePlacementMethod" : "OffsetCurvedFromLine",
+            "maximumLabelOverrun" : 80,
+            "maximumLabelOverrunUnit" : "Point",
+            "minimumFeatureSizeUnit" : "Map",
+            "multiPartOption" : "OneLabelPerPart",
+            "offsetAlongLineProperties" : {
+              "type" : "CIMMaplexOffsetAlongLineProperties",
+              "placementMethod" : "BestPositionAlongLine",
+              "labelAnchorPoint" : "CenterOfLabel",
+              "distanceUnit" : "Percentage",
+              "useLineDirection" : true
+            },
+            "pointExternalZonePriorities" : {
+              "type" : "CIMMaplexExternalZonePriorities",
+              "aboveLeft" : 4,
+              "aboveCenter" : 2,
+              "aboveRight" : 1,
+              "centerRight" : 3,
+              "belowRight" : 5,
+              "belowCenter" : 7,
+              "belowLeft" : 8,
+              "centerLeft" : 6
+            },
+            "pointPlacementMethod" : "AroundPoint",
+            "polygonAnchorPointType" : "GeometricCenter",
+            "polygonBoundaryWeight" : 0,
+            "polygonExternalZones" : {
+              "type" : "CIMMaplexExternalZonePriorities",
+              "aboveLeft" : 4,
+              "aboveCenter" : 2,
+              "aboveRight" : 1,
+              "centerRight" : 3,
+              "belowRight" : 5,
+              "belowCenter" : 7,
+              "belowLeft" : 8,
+              "centerLeft" : 6
+            },
+            "polygonFeatureType" : "General",
+            "polygonInternalZones" : {
+              "type" : "CIMMaplexInternalZonePriorities",
+              "center" : 1
+            },
+            "polygonPlacementMethod" : "HorizontalInPolygon",
+            "primaryOffset" : 1,
+            "primaryOffsetUnit" : "Point",
+            "removeAmbiguousLabels" : "All",
+            "removeExtraWhiteSpace" : true,
+            "repetitionIntervalUnit" : "Point",
+            "rotationProperties" : {
+              "type" : "CIMMaplexRotationProperties",
+              "rotationType" : "Arithmetic",
+              "alignmentType" : "Straight"
+            },
+            "secondaryOffset" : 100,
+            "secondaryOffsetUnit" : "Percentage",
+            "strategyPriorities" : {
+              "type" : "CIMMaplexStrategyPriorities",
+              "stacking" : 1,
+              "overrun" : 2,
+              "fontCompression" : 3,
+              "fontReduction" : 4,
+              "abbreviation" : 5
+            },
+            "thinningDistanceUnit" : "Point",
+            "truncationMarkerCharacter" : ".",
+            "truncationMinimumLength" : 1,
+            "truncationPreferredCharacters" : "aeiou",
+            "truncationExcludedCharacters" : "0123456789",
+            "polygonAnchorPointPerimeterInsetUnit" : "Point"
+          },
+          "name" : "Class 1",
+          "priority" : -1,
+          "standardLabelPlacementProperties" : {
+            "type" : "CIMStandardLabelPlacementProperties",
+            "featureType" : "Line",
+            "featureWeight" : "None",
+            "labelWeight" : "High",
+            "numLabelsOption" : "OneLabelPerName",
+            "lineLabelPosition" : {
+              "type" : "CIMStandardLineLabelPosition",
+              "above" : true,
+              "inLine" : true,
+              "parallel" : true
+            },
+            "lineLabelPriorities" : {
+              "type" : "CIMStandardLineLabelPriorities",
+              "aboveStart" : 3,
+              "aboveAlong" : 3,
+              "aboveEnd" : 3,
+              "centerStart" : 3,
+              "centerAlong" : 3,
+              "centerEnd" : 3,
+              "belowStart" : 3,
+              "belowAlong" : 3,
+              "belowEnd" : 3
+            },
+            "pointPlacementMethod" : "AroundPoint",
+            "pointPlacementPriorities" : {
+              "type" : "CIMStandardPointPlacementPriorities",
+              "aboveLeft" : 2,
+              "aboveCenter" : 2,
+              "aboveRight" : 1,
+              "centerLeft" : 3,
+              "centerRight" : 2,
+              "belowLeft" : 3,
+              "belowCenter" : 3,
+              "belowRight" : 2
+            },
+            "rotationType" : "Arithmetic",
+            "polygonPlacementMethod" : "AlwaysHorizontal"
+          },
+          "textSymbol" : {
+            "type" : "CIMSymbolReference",
+            "symbol" : {
+              "type" : "CIMTextSymbol",
+              "blockProgression" : "TTB",
+              "depth3D" : 1,
+              "extrapolateBaselines" : true,
+              "fontEffects" : "Normal",
+              "fontEncoding" : "Unicode",
+              "fontFamilyName" : "Tahoma",
+              "fontStyleName" : "Regular",
+              "fontType" : "Unspecified",
+              "haloSize" : 1,
+              "height" : 10,
+              "hinting" : "Default",
+              "horizontalAlignment" : "Left",
+              "kerning" : true,
+              "letterWidth" : 100,
+              "ligatures" : true,
+              "lineGapType" : "ExtraLeading",
+              "symbol" : {
+                "type" : "CIMPolygonSymbol",
+                "symbolLayers" : [
+                  {
+                    "type" : "CIMSolidFill",
+                    "enable" : true,
+                    "color" : {
+                      "type" : "CIMRGBColor",
+                      "values" : [
+                        0,
+                        0,
+                        0,
+                        100
+                      ]
+                    }
+                  }
+                ],
+                "angleAlignment" : "Map"
+              },
+              "textCase" : "Normal",
+              "textDirection" : "LTR",
+              "verticalAlignment" : "Bottom",
+              "verticalGlyphOrientation" : "Right",
+              "wordSpacing" : 100,
+              "billboardMode3D" : "FaceNearPlane"
+            }
+          },
+          "useCodedValue" : true,
+          "visibility" : true,
+          "iD" : -1
+        }
+      ],
+      "renderer" : {
+        "type" : "CIMUniqueValueRenderer",
+        "sampleSize" : 10000,
+        "colorRamp" : {
+          "type" : "CIMMultipartColorRamp",
+          "colorRamps" : [
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  38,
+                  71,
+                  163,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  38,
+                  71,
+                  163,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  61,
+                  168,
+                  84,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  61,
+                  168,
+                  84,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  161,
+                  34,
+                  34,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  161,
+                  34,
+                  34,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  42,
+                  145,
+                  163,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  42,
+                  145,
+                  163,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  168,
+                  50,
+                  115,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  168,
+                  50,
+                  115,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  150,
+                  125,
+                  71,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  150,
+                  125,
+                  71,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  171,
+                  173,
+                  40,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  171,
+                  173,
+                  40,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  148,
+                  56,
+                  168,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  148,
+                  56,
+                  168,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  54,
+                  133,
+                  101,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  54,
+                  133,
+                  101,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  143,
+                  71,
+                  74,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  143,
+                  71,
+                  74,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  37,
+                  89,
+                  138,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  37,
+                  89,
+                  138,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  80,
+                  35,
+                  168,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  80,
+                  35,
+                  168,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  128,
+                  150,
+                  68,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  128,
+                  150,
+                  68,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  176,
+                  37,
+                  79,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  176,
+                  37,
+                  79,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  143,
+                  85,
+                  34,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  143,
+                  85,
+                  34,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  109,
+                  71,
+                  150,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  109,
+                  71,
+                  150,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  40,
+                  128,
+                  31,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  40,
+                  128,
+                  31,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  130,
+                  33,
+                  117,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  130,
+                  33,
+                  117,
+                  100
+                ]
+              }
+            }
+          ]
+        },
+        "defaultLabel" : "<all other values>",
+        "defaultSymbol" : {
+          "type" : "CIMSymbolReference",
+          "symbol" : {
+            "type" : "CIMPolygonSymbol",
+            "symbolLayers" : [
+              {
+                "type" : "CIMSolidStroke",
+                "enable" : true,
+                "capStyle" : "Round",
+                "joinStyle" : "Round",
+                "lineStyle3D" : "Strip",
+                "miterLimit" : 10,
+                "width" : 0.69999999999999996,
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    110,
+                    110,
+                    110,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMSolidFill",
+                "enable" : true,
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    130,
+                    130,
+                    130,
+                    100
+                  ]
+                }
+              }
+            ],
+            "angleAlignment" : "Map"
+          }
+        },
+        "defaultSymbolPatch" : "Default",
+        "fields" : [
+          "Zone"
+        ],
+        "groups" : [
+          {
+            "type" : "CIMUniqueValueGroup",
+            "classes" : [
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Coastal Plains Heavy Fog Belt",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            0
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            195,
+                            161,
+                            204,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "1"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Coastal Mixed Fog Area",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            209,
+                            200,
+                            227,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "2"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Coastal Valleys & Plains &North Coast Mountains",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            196,
+                            205,
+                            230,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "3"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "South Coast Inland Plains & Mountains North of San Francisco",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            154,
+                            174,
+                            218,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "4"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Northern Inland Valleys",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            154,
+                            201,
+                            226,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "5"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Upland Central Coast & Los Angeles Basin",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            173,
+                            219,
+                            221,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "6"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Northeastern Plains",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            211,
+                            236,
+                            231,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "7"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Inland San Francisco Bay Area",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            185,
+                            223,
+                            191,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "8"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "South Coast Marine to Desert Transition",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            171,
+                            198,
+                            181,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "9"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "North Central Plateau & Central Coast",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            203,
+                            225,
+                            173,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "10"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Central Sierra Nevada",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            228,
+                            233,
+                            199,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "11"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "East Side Sacramento-San Joaquin Valley",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            255,
+                            251,
+                            204,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "12"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Northern Sierra Nevada",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            255,
+                            252,
+                            221,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "13"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Mid-Central Velly, Southern Sierra Nevada, Tehachapi & High Desert Mountains",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            239,
+                            234,
+                            204,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "14"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Northern & Southern San Joaquin Valley",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            240,
+                            212,
+                            177,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "15"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Westside San Joaquin Valley & Mountains East & West of Imperial Valley",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            209,
+                            181,
+                            149,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "16"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "High Desert Valleys",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            193,
+                            187,
+                            182,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "17"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Imperial Valley, Death Valley & Palo Verde",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            227,
+                            178,
+                            158,
+                            100
+                          ]
+                        }
+                      }
+                    ],
+                    "angleAlignment" : "Map"
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "18"
+                    ]
+                  }
+                ],
+                "visible" : true
+              }
+            ]
+          }
+        ],
+        "useDefaultSymbol" : true,
+        "polygonSymbolColorTarget" : "Fill"
+      },
+      "scaleSymbols" : true,
+      "snappable" : true
+    }
+  ],
+  "rGBColorProfile" : "sRGB IEC61966-2.1",
+  "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2",
+  "elevationSurfaceLayerDefinitions" : [
+    {
+      "type" : "CIMElevationSurfaceLayer",
+      "name" : "Ground",
+      "uRI" : "CIMPATH=Map/e154b92af2204a88a4d75a9a38423e13.json",
+      "useSourceMetadata" : true,
+      "description" : "Ground",
+      "expanded" : true,
+      "layerType" : "Operational",
+      "showLegends" : false,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "elevationMode" : "BaseGlobeSurface",
+      "verticalExaggeration" : 1,
+      "color" : {
+        "type" : "CIMRGBColor",
+        "values" : [
+          255,
+          255,
+          255,
+          100
+        ]
+      },
+      "surfaceTINShadingMode" : "Smooth"
+    }
+  ]
+}
