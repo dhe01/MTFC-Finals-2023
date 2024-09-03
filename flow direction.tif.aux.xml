@@ -1,0 +1,29 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="DataType">Flow-Direction</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Histograms>
+      <HistItem>
+        <HistMin>-0.5</HistMin>
+        <HistMax>255.5</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>217540|21214|12431|10|29178|3|6|8|19948|7|12|0|4|1|1|6|28451|29|25|1|6|0|2|2|5|2|1|0|9|2|12|26|12298|19|7|1|8|1|1|2|4|1|0|0|1|1|0|0|6|2|2|0|3|0|1|1|3|0|0|0|9|1|13|6|24430|3|6|2|16|0|0|3|3|0|2|0|1|1|0|0|4|0|0|0|2|0|0|1|1|0|0|0|1|0|0|1|11|2|1|1|1|0|0|0|0|0|0|0|0|0|1|0|4|6|2|3|2|1|0|3|8|0|0|0|12|1|8|24|13634|4|1|4|7|1|1|5|4|0|0|0|1|2|0|5|12|4|1|1|1|0|0|1|1|0|0|0|0|0|1|1|3|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|0|0|1|1|0|1|3|12|0|10|1|0|1|11|0|0|0|0|1|0|0|4|1|3|0|1|0|0|0|2|1|0|0|2|0|2|3|7|4|13|0|9|0|1|0|8|1|1|0|0|0|0|0|2|2|20|3|10|0|4|0|23|4|1|0|1|4|7|1|278</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="RepresentationType">THEMATIC</MDI>
+      <MDI key="STATISTICS_COVARIANCES">841.2511851436167</MDI>
+      <MDI key="STATISTICS_EXCLUDEDVALUES"></MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">12.166029931801</MDI>
+      <MDI key="STATISTICS_MEDIAN">0.000000</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_STDDEV">29.004330455013</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
